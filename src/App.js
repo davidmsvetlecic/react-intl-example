@@ -18,6 +18,7 @@ const messages = defineMessages({
     defaultMessage: 'and save to reload.'
   },
 })
+// <h1 className="App-title"><FormattedMessage id="messages.title" defaultMessage="Welcome to React" description="App Welcome" /></h1>
 
 class App extends Component {
   render() {
