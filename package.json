@@ -1,31 +1,24 @@
 {
-  "name": "react-intl-example",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "react-intl-example",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "eslint": "^5.16.0",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-intl": "^2.4.0",
+        "react-scripts": "1.1.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject",
+        "extract:messages": "react-intl-cra \"src/**/*.{js,jsx}\" -o \"src/i18n/messages/messages.json\"",
+        "manage:translations": "node ./translationRunner.js"
+    },
+    "devDependencies": {
+        "react-intl-cra": "^0.3.3",
+        "react-intl-translations-manager": "^5.0.1"
+    }
 }
