@@ -1,16 +1,19 @@
 [
   {
     "id": "app.title",
+    "description": "App Welcome",
     "defaultMessage": "Welcome to React",
     "filepath": "src/App.js"
   },
   {
     "id": "app.content1",
+    "description": "App Content1",
     "defaultMessage": "To get started, edit",
     "filepath": "src/App.js"
   },
   {
     "id": "app.content2",
+    "description": "App Content2",
     "defaultMessage": "and save to reload.",
     "filepath": "src/App.js"
   }

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { IntlProvider, addLocaleData } from "react-intl";
 import es from "react-intl/locale-data/es";
 import fr from "react-intl/locale-data/fr";
-import translations from "./i18n/locales";
+import translations from "./i18n/locales/translations";
 import App from "./App";
 
 addLocaleData(es);

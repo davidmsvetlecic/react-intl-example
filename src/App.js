@@ -6,18 +6,21 @@ import './App.css';
 
 const messages = defineMessages({
   title: {
-    id: 'app.title',
-    defaultMessage: 'Welcome to React'
+    id: "app.title",
+    defaultMessage: "Welcome to React",
+    description: "App Welcome"
   },
   content1: {
-    id: 'app.content1',
-    defaultMessage: 'To get started, edit'
+    id: "app.content1",
+    defaultMessage: "To get started, edit",
+    description: "App Content1"
   },
   content2: {
-    id: 'app.content2',
-    defaultMessage: 'and save to reload.'
-  },
-})
+    id: "app.content2",
+    defaultMessage: "and save to reload.",
+    description: "App Content2"
+  }
+});
 // <h1 className="App-title"><FormattedMessage id="messages.title" defaultMessage="Welcome to React" description="App Welcome" /></h1>
 
 class App extends Component {
